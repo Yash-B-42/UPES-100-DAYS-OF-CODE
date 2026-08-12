@@ -5,11 +5,11 @@
 int main() {
     float celsius, fahrenheit;
 
-    scanf("%f", &celsius);
+    scanf("%d", &celsius);
 
     fahrenheit = (9 * celsius / 5) + 32;
 
-    printf("%.2f\n", fahrenheit);
+    printf("%d\n", fahrenheit);
 
     return 0;
 }
