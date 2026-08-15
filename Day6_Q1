@@ -1,0 +1,12 @@
+// Write a program to input an integer and check weather it is even or odd using if-else.
+#include <stdio.h>
+int main() {
+    int a;
+    printf("Enter a: ");
+    scanf("%d", &a);
+    if (a % 2 == 0)
+        printf("a is an even number");
+    else
+        printf("a is an odd number");
+    return 0;
+}
