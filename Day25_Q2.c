@@ -1,0 +1,23 @@
+/* Write a program to print the following pattern:
+*****
+ ****
+  ***
+   **
+    * */
+#include <stdio.h>
+int main () {
+    int i, j;
+    for (i=5; i>0; i=i-1)
+    {
+        for (j=5; j>i; j=j-1)
+        {
+            printf(" ");
+        }
+        for (j=1; j<=i; j=j+1)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
